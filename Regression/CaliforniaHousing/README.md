@@ -533,7 +533,7 @@ Click the following link to access the online submission form on your PC or mobi
 
 And then in the form please report the following:
 
-* Your first name or online handle
+* Your name
 * The dataset you're using (= **California Housing**)
 * The columns you used in your best model
 * The learning algorithm you used in your best model
