@@ -15,7 +15,7 @@ https://www.machinelearningadvantage.com/introduction-to-machinelearning
 
 # Table of contents
 
-Transforming data: [Processing California housing data](./LoadingData/CaliforniaHousing)
+Regression: [Predict house prices in California](./Regression/CaliforniaHousing)
 
 Regression: [Predict taxi fares in New York](./Regression/TaxiFarePrediction)
 
