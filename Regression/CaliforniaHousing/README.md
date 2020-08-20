@@ -37,8 +37,8 @@ Let's do that now.
 Please open a console window. You are going to create a folder to hold all the files of this assignment:
 
 ```bash
-$ mkdir CaliforniaHousing
-$ cd CaliforniaHousing
+mkdir CaliforniaHousing
+cd CaliforniaHousing
 ```
 
 Also make sure to copy the two dataset files into this folder. 
@@ -50,7 +50,7 @@ Now you're ready to start training a machine learning model. To keep things simp
 Type the following command in your console window:
 
 ```bash
-$ mlnet regression --dataset .\california_housing_train.csv --test-dataset .\california_housing_test.csv --label-col median_house_value --ignore-cols housing_median_age total_rooms total_bedrooms population households median_income
+mlnet regression --dataset .\california_housing_train.csv --test-dataset .\california_housing_test.csv --label-col median_house_value --ignore-cols housing_median_age total_rooms total_bedrooms population households median_income
 ```
 
 **mlnet** is the Microsoft ML.NET CLI tool. It's a command-line tool that can train machine learning models from CSV datafiles directly and produce all the C# code we need to train a model and then consume that fully-trained model.
@@ -95,7 +95,7 @@ And finally, the tool reports that it has created a C# app for us that can eithe
 Let's take a look at all the files the CLI tool has created. Run the following Powershell command on the console:
 
 ```bash
-$ l -recurse -file -depth 1 sampleregression
+l -recurse -file -depth 1 sampleregression
 ```
 
 You'll see the following output:
@@ -126,8 +126,8 @@ Just keep in mind that training the model may take a while (anything from a few 
 Now let's take a closer look at the generated code. Go to the SampleRegression folder and open Visual Studio code:
 
 ```bash
-$ cd SampleRegression
-$ code .
+cd SampleRegression
+code .
 ```
 
 In Visual Studio Code, select the **SampleRegression.ConsoleApp/Program.cs** file. You'll see something like this:
@@ -180,7 +180,7 @@ Before we look at the other classes, let's quickly run this app to make sure eve
 Type the following on the console:
 
 ```bash
-$ dotnet run --project SampleRegression.ConsoleApp
+dotnet run --project SampleRegression.ConsoleApp
 ```
 
 This will run the app and show the following:
@@ -466,7 +466,7 @@ ModelBuilder.CreateModel();
 Now execute the following command on the console:
 
 ```bash
-$ dotnet run --project SampleRegression.ConsoleApp
+dotnet run --project SampleRegression.ConsoleApp
 ```
 
 This will run the app and show the following:
