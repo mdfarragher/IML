@@ -539,8 +539,6 @@ And then in the form please report the following:
 * The learning algorithm you used in your best model
 * The metric you used to evaluate your model (= **RMSE**)
 * The RMS-loss value of your best model
-* OPTIONAL: the GitHub link with your source code
-* OPTIONAL: anything you'd like to share about your code
 
 I will periodically compile all submissions into a top-10 hall of fame and share the list in my courses and on social media. 
 
