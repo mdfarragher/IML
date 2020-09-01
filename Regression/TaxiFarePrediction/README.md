@@ -12,7 +12,7 @@ Let's start by downloading the dataset. Grab the [Yellow Taxi Trip Records from 
 
 This is a CSV file with 8 million records that looks like this:
  
-![Data File](./assets/data.png)
+![Data File](./assets/data.jpg)
 
 There are a lot of columns with interesting information in this data file, but you will only train on the following:
 
