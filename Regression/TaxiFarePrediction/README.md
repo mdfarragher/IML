@@ -166,7 +166,6 @@ Let's run this app to make sure everything works.
 Type the following on the console:
 
 ```bash
-cd SampleRegression
 dotnet run --project SampleRegression.ConsoleApp
 ```
 
