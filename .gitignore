@@ -3,3 +3,5 @@ LoadingData/CaliforniaHousing/SampleRegression/SampleRegression.ConsoleApp/obj/
 LoadingData/CaliforniaHousing/SampleRegression/SampleRegression.Model/obj/
 LoadingData/CaliforniaHousing/SampleRegression/
 Regression/CaliforniaHousing/SampleRegression/
+Regression/TaxiFarePrediction/SampleRegression/
+Regression/TaxiFarePrediction/yellow_tripdata_2018-12.csv
