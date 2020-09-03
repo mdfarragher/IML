@@ -375,12 +375,12 @@ public static IEstimator<ITransformer> BuildTrainingPipeline(MLContext mlContext
 }
 ```
 
-We're seeing the same machine learning pipeline components as in the previous code assignment: 
+We're seeing similar machine learning pipeline components as in the previous code assignment: 
 
 * A **Concatenate** component which combines all input data columns into a single column called 'Features'. This is a required step because ML.NET can only train on a single input column.
 * A **LightGbm** regression training algorithm which will train the model. 
 
-The **TrainModel** method is also unchanged:
+The **TrainModel** method is unchanged:
 
 ```csharp
 public static ITransformer TrainModel(MLContext mlContext, IDataView trainingDataView, IEstimator<ITransformer> trainingPipeline)
@@ -396,7 +396,7 @@ public static ITransformer TrainModel(MLContext mlContext, IDataView trainingDat
 
 This is the same call to the **Fit** method that trains the model with the machine learning pipeline using the training data. The return value is a fully-trained machine learning model.
 
-But now let's check out the evaluation method:
+But now let's check out the **Evaluate** method:
 
 ```csharp
 private static void Evaluate(MLContext mlContext, IDataView trainingDataView, IEstimator<ITransformer> trainingPipeline)
