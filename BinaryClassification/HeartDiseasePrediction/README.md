@@ -18,7 +18,7 @@ Let's find out!
 
 ## Get the dataset
 
-Let's start by downloading the dataset. Grab the [Cleveland Heart Disease Training](#) and [Cleveland Heart Disease Testing](#) datasets and save them as **processed_cleveland_train.csv** and **processed_cleveland_test.csv** respectively. 
+Let's start by downloading the dataset. Grab the [Cleveland Heart Disease Training](https://raw.githubusercontent.com/mdfarragher/IML/master/BinaryClassification/HeartDiseasePrediction/processed_cleveland_train.csv) and [Cleveland Heart Disease Testing](https://raw.githubusercontent.com/mdfarragher/IML/master/BinaryClassification/HeartDiseasePrediction/processed_cleveland_test.csv) datasets and save them as **processed_cleveland_train.csv** and **processed_cleveland_test.csv** respectively. 
 
 The data files look like this:
 
