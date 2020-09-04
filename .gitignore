@@ -6,3 +6,6 @@ Regression/CaliforniaHousing/SampleRegression/
 Regression/TaxiFarePrediction/SampleRegression/
 Regression/TaxiFarePrediction/yellow_tripdata_2018-12.csv
 BinaryClassification/HeartDiseasePrediction/SampleClassification/
+MulticlassClassification/DigitRecognition/Mnist/
+MulticlassClassification/DigitRecognition/mnist_test.csv
+MulticlassClassification/DigitRecognition/mnist_train.csv
