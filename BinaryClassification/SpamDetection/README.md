@@ -102,7 +102,7 @@ So again, you have two possible scenarios for building your own heart disease pr
 
 ### The SampleClassification.ConsoleApp project
 
-We've already inspected the generated code twice when we covered regression. So let's do a quick scan to see how the act of classification has changed the generated code.
+Let's do a quick scanof the generated code.
 
 Go to the SampleRegression folder and open Visual Studio code:
 
