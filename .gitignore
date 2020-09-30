@@ -9,3 +9,4 @@ BinaryClassification/HeartDiseasePrediction/SampleClassification/
 MulticlassClassification/DigitRecognition/Mnist/
 MulticlassClassification/DigitRecognition/mnist_test.csv
 MulticlassClassification/DigitRecognition/mnist_train.csv
+BinaryClassification/SpamDetection/SampleClassification/
