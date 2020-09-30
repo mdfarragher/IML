@@ -102,7 +102,7 @@ So again, you have two possible scenarios for building your own heart disease pr
 
 ### The SampleClassification.ConsoleApp project
 
-Let's do a quick scanof the generated code.
+Let's do a quick scan of the generated code.
 
 Go to the SampleRegression folder and open Visual Studio code:
 
