@@ -65,7 +65,7 @@ Next, we need to download the dataset
 
 ## Get the dataset
 
-Let's start with the set of 20 test images. You can grab them from [here](#). Unzip the archive and save the images in an **images** subfolder in your project folder.
+Let's start with the set of 20 test images. You can grab them from [here](https://github.com/mdfarragher/IML/blob/master/NeuralNetworks/ObjectDetection/images/images.zip). Unzip the archive and save the images in an **images** subfolder in your project folder.
 
 The images should look like this:
 
@@ -86,7 +86,7 @@ In this assignment we're not going to train a model from scratch on a training d
 
 Instead, we're going to download the fully trained model and use it out of the box. 
 
-You can donwload the model from [here](#). Unzip the archive and place the files in a **models** subfolder in your project folder. 
+You can donwload the model from [here](https://github.com/mdfarragher/IML/blob/master/NeuralNetworks/ObjectDetection/models/models.zip). Unzip the archive and place the files in a **models** subfolder in your project folder. 
 
 To verify if you have every file in its correct place, run the following console command:
 
