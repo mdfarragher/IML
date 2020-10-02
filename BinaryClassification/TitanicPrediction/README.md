@@ -224,7 +224,7 @@ public class ModelOutput
 
 I've changed **Prediction** to a bool. We're doing binary classification so the predictions need to be boolean true/false values.
 
-And note that **Score** and **Probability** are not arrays but floats. Since we have only 2 output categories (a healthy patient or a sick patient), the model only outputs the score and probability of the true case (a sick patient). Since the probabilities add up to 100%, we can easily calculate the other probability if we need it. 
+And note that **Score** and **Probability** are not arrays but floats. Since we have only 2 output categories (survived or perished), the model only outputs the score and probability of the true case (survived). Since the probabilities add up to 100%, we can easily calculate the other probability if we need it. 
 
 With these changes, the **ModelBuilder** class is ready for binary classification. 
 
