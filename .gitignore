@@ -38,3 +38,4 @@ NeuralNetworks/ObjectDetection/models/imagenet.tsv
 NeuralNetworks/ObjectDetection/models/imagenet_comp_graph_label_strings.txt
 NeuralNetworks/ObjectDetection/models/LICENSE
 NeuralNetworks/ObjectDetection/models/tensorflow_inception_graph.pb
+BinaryClassification/TitanicPrediction/SampleClassification/
