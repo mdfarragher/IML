@@ -29,7 +29,7 @@ cd TitanicPrediction
 
 To train your app, you will need the passenger manifest of the Titanic's last voyage. You will use the famous **Kaggle Titanic Dataset** which has data for a subset of 891 passengers.
 
-Download the [test_data.csv](https://github.com/mdfarragher/DSC/blob/master/BinaryClassification/TitanicPrediction/test_data.csv) and [train_data.csv](https://github.com/mdfarragher/DSC/blob/master/BinaryClassification/TitanicPrediction/train_data.csv) files and save them to your project folder.
+Download the [test_data.csv](https://github.com/mdfarragher/IML/blob/master/BinaryClassification/TitanicPrediction/test_data.csv) and [train_data.csv](https://github.com/mdfarragher/IML/blob/master/BinaryClassification/TitanicPrediction/train_data.csv) files and save them to your project folder.
 
 The training data file looks like this:
 
