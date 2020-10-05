@@ -1,4 +1,4 @@
-# Assignment: Predict who survived the Titanic disaster
+# Assignment: Predict bike sharing demand in Washington
 
 Bike sharing systems are a means of renting bicycles where the process of becoming a member, renting a bike, and returning the bike are all automated via a network of kiosk locations throughout a city. Using these systems, people are able rent a bike from a one location and return it to a different place on an as-needed basis.
 
@@ -230,7 +230,7 @@ And then in the form please report the following:
 * The dataset you're using (= **Washington Bike Demand**)
 * The columns you used in your best model
 * The learning algorithm you used in your best model (Can be **FastForest** but feel free to try others too)
-* The metric you used to evaluate your model (= **Root Mean Square Error (RMSE)**)
+* The metric you used to evaluate your model (= **RMSE**)
 * The RMSE value of your best model
 
 I will periodically compile all submissions into a top-10 hall of fame and share the list in my courses and on social media. 
