@@ -51,7 +51,7 @@ Next, we need to download the dataset
 
 ## Get the dataset
 
-You can download the Iris dataset [from here](https://github.com/mdfarragher/DSC/blob/master/Clustering/IrisFlower/iris-data.csv). Save the file as **iris-data.csv** in your project folder.
+You can download the Iris dataset [from here](https://github.com/mdfarragher/IML/blob/master/Clustering/IrisFlower/iris-data.csv). Save the file as **iris-data.csv** in your project folder.
 
 The file looks like this:
 
