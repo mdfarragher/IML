@@ -237,7 +237,7 @@ Then the code picks three flowers for testing. For each flower it writes the lab
 
 That's it, the app is done!
 
-You can run the app like this:
+You can run the app by typing the following command on the console:
 
 ```bash
 dotnet run
