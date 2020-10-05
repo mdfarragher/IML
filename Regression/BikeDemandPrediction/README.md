@@ -1,6 +1,6 @@
 # Assignment: Predict bike sharing demand in Washington
 
-Bike sharing systems are a means of renting bicycles where the process of becoming a member, renting a bike, and returning the bike are all automated via a network of kiosk locations throughout a city. Using these systems, people are able rent a bike from a one location and return it to a different place on an as-needed basis.
+Bike sharing systems are a means of renting bicycles where the process of becoming a member, renting a bike, and returning the bike are all automated via a network of kiosk locations throughout a city. Using these systems, people are able to rent a bike from one location and return it to a different place on an as-needed basis.
 
 Users use their mobile phone to unlock a bike from a dock and return it later at another dock belonging to the same system. Docks are bike racks that lock the bike and only release it by computer control. They look like this:
 
@@ -23,11 +23,7 @@ cd BikeSharing
 
 We are going to train a machine learning model on a dataset with lots of bike sharing demand numbers. We'll use the UCI Bike Sharing Dataset from Capital Bikshare, a bike sharing company in the Metro DC area. This dataset was compiled in 2013 and has 17,380 bike sharing records that span a 2-year period.
 
-You can [download the dataset here](https://github.com/mdfarragher/IML/blob/master/Regression/BikeDemandPrediction/bikedemand.csv). Please save it in your project folder as **bikedmand.csv**.
-
-The training data file looks like this:
-
-![Training data](./assets/data.png)
+You can [download the dataset here](https://github.com/mdfarragher/IML/blob/master/Regression/BikeDemandPrediction/bikedemand.csv). Please save it in your project folder as **bikedemand.csv**.
 
 The file looks like this:
 
@@ -55,7 +51,7 @@ It’s a comma-separated file with 17 columns:
 
 You can ignore the record index, the date, and the number of casual and registered bikes, and use everything else as input features. The final column **cnt** is the label you're trying to predict.
 
-You're gooing to build a regression model that reads in all columns and then predicts how many bikes are required for every date and time in the dataset.
+You're going to build a regression model that reads in all columns and then predicts how many bikes are required for every date and time in the dataset.
 
 ## Train the model
 
@@ -79,11 +75,11 @@ The tool has loaded the dataset and is now randomly trying out machine learning 
 
 You can see that at the point of the screenshot, the tool has already tried out 10 different machine learning algorithms, these are listed in the **Training** column. 
 
-The performance of each algorithm is listed in the **RSquared** and **Absolute-loss (MAE)** columns. The tool uses the R-squared value to keep track of the best algorithm to date, which is shown in the final line of text. 
+The performance of each algorithm is listed in the **RSquared**, **RMS-loss** and **Absolute-loss** columns. The tool uses the R-squared value to keep track of the best algorithm to date, which is shown in the final line of text. 
 
 In the screenshot, the best algorithm is LightGbmRegression which achieved an R-squared of 0.6317 (bigger is better). This happened in experiment 9.
 
-You can also look at the Absolute-loss column, also known as the Mean Absolute Error (MAE). The best algorithm has an MAE of 75.43, meaning its predictions are off by 75 bikes on average. 
+The **Absolute-loss** column contains the Mean Absolute Error (MAE). The best algorithm has a MAE of 75.43, meaning its predictions are off by 75 bikes on average. 
 
 The tool continues to try out algorithms until a set time period has expired. The default period is 100 seconds, at which the tool selects the winning algorithm.
 
@@ -149,7 +145,7 @@ This pipeline contains the following components:
 
 The **FastTree** machine learning algorithm is a regression decision tree. And we know from the previous course lectures that decision trees are prone to overfitting. 
 
-The MAE on our predictions is 75 bikes which is quite a lot, so the model is probably not overfitting yet. But let's not take any changes and replace the algorithm with a bagging ensemble of decision trees. This will lower the variance and protect the model from overfitting. 
+The MAE on our predictions is 75 bikes which is quite a lot, so the model is probably not overfitting yet. But let's not take any chances and replace the algorithm with a bagging ensemble of decision trees. This will lower the variance and protect the model from overfitting. 
 
 A bagging ensemble of fast decision trees is a very popular machine learning algorithm. So popular in fact that it is commonly referred to as a **FastForest**, and the ML.NET library supports it out of the box.
 
