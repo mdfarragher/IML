@@ -95,7 +95,7 @@ And finally, the tool reports that it has created a C# app for us that can eithe
 Let's take a look at all the files the CLI tool has created. Run the following Powershell command on the console:
 
 ```bash
-l -recurse -file -depth 1 sampleregression
+ls -recurse -file -depth 1 sampleregression
 ```
 
 You'll see the following output:

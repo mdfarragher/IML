@@ -91,7 +91,7 @@ The tool also reports that it has created a C# app for us that can either train 
 Let's check the files agail that the CLI tool has created. Run the following Powershell command on the console:
 
 ```bash
-l -recurse -file -depth 1 sampleregression
+ls -recurse -file -depth 1 sampleregression
 ```
 
 You'll see the following output:

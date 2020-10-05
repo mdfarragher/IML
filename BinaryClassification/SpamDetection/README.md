@@ -82,7 +82,7 @@ The tool has created a C# app for us and placed the project files in the **Sampl
 Let's check the files agail that the CLI tool has created. Run the following Powershell command on the console:
 
 ```bash
-l -recurse -file -depth 1 sampleclassification
+ls -recurse -file -depth 1 sampleclassification
 ```
 
 You'll see the following output:

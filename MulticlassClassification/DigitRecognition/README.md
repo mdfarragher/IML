@@ -93,7 +93,7 @@ This is an amazing result because the human accuracy level for this task is 0.97
 Let's check the files agail that the CLI tool has created. Run the following Powershell command on the console:
 
 ```bash
-l -recurse -file -depth 1 mnist
+ls -recurse -file -depth 1 mnist
 ```
 
 You'll see the following output:
