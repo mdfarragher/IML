@@ -40,3 +40,5 @@ NeuralNetworks/ObjectDetection/models/LICENSE
 NeuralNetworks/ObjectDetection/models/tensorflow_inception_graph.pb
 BinaryClassification/TitanicPrediction/SampleClassification/
 Regression/BikeDemandPrediction/SampleRegression/
+Clustering/IrisFlower/bin/
+Clustering/IrisFlower/obj/
