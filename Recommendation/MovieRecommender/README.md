@@ -87,7 +87,7 @@ So we can expect this model to generate predictions that are off by roughly half
 
 ## Inspect the C# code
 
-Let's check the files agail that the CLI tool has created. Run the following Powershell command on the console:
+Let's check the files that the CLI tool has created. Run the following Powershell command on the console:
 
 ```bash
 ls -recurse -file -depth 1 SampleRecommendation
