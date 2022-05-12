@@ -13,7 +13,7 @@ Your objective is to train a recommendation model on the MovieLens dataset, and 
 * Which rating would I give to the James Bond movie 'GoldenEye'? 
 * Which top-5 movies would you recommend to me to watch next?
 
-## Get the dataset
+### Get the dataset
 
 To start, please open a console window. You are going to create a folder to hold the files of this assignment:
 
